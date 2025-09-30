@@ -87,3 +87,9 @@ git push
 
 that’s it—you’re live 🎉
 If you want, I can also draft a tiny CONTRIBUTING.md later (how to run, style, issues) and a JSON scoreboard sketch when you’re ready to add persistence.
+## 📖 Development Journey
+
+- **v0.1 (prototype-v0.1 branch):** Hardcoded "banana", basic loops.
+- **v0.2 (prototype-v0.2 branch):** Added NLTK word bank.
+- **v0.3 (prototype-v0.3 branch):** Integrated sets + validation.
+- **v0.4 (WIP):** Hints and scoreboard planned.
